@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="MidiFile.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="package.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Update="FSharp.Core" Version="5.0.2" />
+      <PackageReference Include="Fable.Core" Version="3.4.0" />
+      <PackageReference Include="Fable.Browser.Dom" Version="1.3.0" />
+      <PackageReference Include="Fable.Jester" Version="0.33.0" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+{
+  "name": "midi-file-fs",
+  "version": "1.0.0",
+  "dependencies": {
+    "midi-file": "1.2.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}

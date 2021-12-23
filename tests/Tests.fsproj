@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Main.test.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="package.json" />
+      <Content Include="example2.mid" />
+      <Content Include="splitter.config.js" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <PackageReference Update="FSharp.Core" Version="5.0.2" />
+      <PackageReference Include="Fable.Core" Version="3.4.0" />
+      <PackageReference Include="Fable.Browser.Dom" Version="1.3.0" />
+      <PackageReference Include="Fable.Fetch" Version="2.4.0" />
+      <PackageReference Include="Fable.Jester" Version="0.33.0" />
+      <PackageReference Include="Fable.Promise" Version="3.1.2" />
+    </ItemGroup>
+    
+    <ItemGroup>
+      <ProjectReference Include="..\MidiFile\MidiFile.fsproj" />
+    </ItemGroup>
+
+</Project>

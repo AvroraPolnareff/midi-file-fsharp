@@ -1,0 +1,13 @@
+{
+  "name": "midi-file-fs",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest",
+    "build": "dotnet fable watch ./"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1",
+    "jsdom": "18.0.1",
+    "@babel/plugin-transform-modules-commonjs": "7.16.0"
+  }
+}
